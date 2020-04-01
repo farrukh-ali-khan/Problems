@@ -1,3 +1,5 @@
+// Intersection: Given two straight line segments (represented as a start point and an end point), compute the point of intersection, if any.
+
 function intersection(x1, y1, x2, y2, x3, y3, x4, y4) {
   if ((x1 == x2 && y1 == y2) || (x3 == x4 && y3 == y4)) {
     console.log("Input doesn't represent two lines.");
@@ -29,4 +31,4 @@ function intersection(x1, y1, x2, y2, x3, y3, x4, y4) {
   );
 }
 
-console.log(intersection(1,2,1,2,5,6,7,8));
+console.log(intersection(1, 2, 1, 2, 5, 6, 7, 8));
