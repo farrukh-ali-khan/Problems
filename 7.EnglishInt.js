@@ -130,5 +130,3 @@ function main() {
 }
 
 main();
-
-console.log(convert(1000));
